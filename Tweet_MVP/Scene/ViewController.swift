@@ -11,9 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let manager = UserDefaultsManager()
+        manager.setTweet(Tweet(user: User.shared, content: "안녕하세요"))
+        
+        print(manager.getTweet())
     }
-
-
 }
-
