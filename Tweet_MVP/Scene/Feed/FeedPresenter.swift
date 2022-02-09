@@ -11,6 +11,7 @@ protocol FeedProtocol: AnyObject {
     func setupView()
     func reloadTableView()
     func moveToTweetViewController(with tweet: Tweet)
+    func moveToWriteViewController()
 }
 
 class FeedPresenter: NSObject {
@@ -31,6 +32,10 @@ class FeedPresenter: NSObject {
     func viewWillAppear() {
         tweets = userDefalutsManager.getTweet()
         viewController?.reloadTableView()
+    }
+    
+    func didTapWriteButton() {
+        viewController?.moveToWriteViewController()
     }
 }
 

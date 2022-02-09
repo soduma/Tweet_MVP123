@@ -16,12 +16,13 @@ class FeedViewController: UIViewController {
         let button = Floaty(size: 50)
         button.sticky = true
         button.handleFirstItemDirectly = true
-        button.addItem(title: "") { _ in
-            print("float!!!!!")
+        button.addItem(title: "") { [weak self] _ in
+            self?.presenter.didTapWriteButton()
         }
         button.buttonImage = Icon.write.image?.withTintColor(.white, renderingMode: .alwaysOriginal)
         return button
     }()
+    
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -65,5 +66,12 @@ extension FeedViewController: FeedProtocol {
     func moveToTweetViewController(with tweet: Tweet) {
         let tweetViewController = TweetViewController(tweet: tweet)
         navigationController?.pushViewController(tweetViewController, animated: true)
+    }
+    
+    func moveToWriteViewController() {
+        let writeViewController = UINavigationController(rootViewController: WriteViewController())
+        writeViewController.modalPresentationStyle = .fullScreen
+        
+        present(writeViewController, animated: true, completion: nil)
     }
 }
