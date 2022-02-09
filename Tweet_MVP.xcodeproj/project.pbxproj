@@ -15,12 +15,20 @@
 		A019F35527B3A09A0052803F /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F35427B3A09A0052803F /* WriteViewController.swift */; };
 		A019F35727B3A0A30052803F /* WritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F35627B3A0A30052803F /* WritePresenter.swift */; };
 		A019F35A27B3B34A0052803F /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F35927B3B34A0052803F /* ProfilePresenter.swift */; };
+		A019F35C27B3D48A0052803F /* MockFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F35B27B3D48A0052803F /* MockFeedViewController.swift */; };
+		A019F35E27B3D4B60052803F /* MockUserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F35D27B3D4B60052803F /* MockUserDefaultsManager.swift */; };
+		A019F36127B3D53B0052803F /* WritePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F36027B3D53B0052803F /* WritePresenterTests.swift */; };
+		A019F36327B3D73F0052803F /* MockWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F36227B3D73F0052803F /* MockWriteViewController.swift */; };
+		A019F36527B3D78F0052803F /* TweetPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F36427B3D78F0052803F /* TweetPresenterTests.swift */; };
+		A019F36727B3D97E0052803F /* MockTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F36627B3D97E0052803F /* MockTweetViewController.swift */; };
+		A019F36927B3D9D60052803F /* ProfilePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F36827B3D9D60052803F /* ProfilePresenterTests.swift */; };
+		A019F36B27B3DDC70052803F /* MockProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F36A27B3DDC70052803F /* MockProfileViewController.swift */; };
 		A0CB9A7C27A8E81500E6A9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9A7B27A8E81500E6A9E8 /* AppDelegate.swift */; };
 		A0CB9A7E27A8E81500E6A9E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9A7D27A8E81500E6A9E8 /* SceneDelegate.swift */; };
 		A0CB9A8027A8E81500E6A9E8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9A7F27A8E81500E6A9E8 /* FeedViewController.swift */; };
 		A0CB9A8527A8E81600E6A9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CB9A8427A8E81600E6A9E8 /* Assets.xcassets */; };
 		A0CB9A8827A8E81600E6A9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CB9A8627A8E81600E6A9E8 /* LaunchScreen.storyboard */; };
-		A0CB9A9327A8E81700E6A9E8 /* Tweet_MVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9A9227A8E81700E6A9E8 /* Tweet_MVPTests.swift */; };
+		A0CB9A9327A8E81700E6A9E8 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9A9227A8E81700E6A9E8 /* FeedPresenterTests.swift */; };
 		A0CB9A9D27A8E81700E6A9E8 /* Tweet_MVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9A9C27A8E81700E6A9E8 /* Tweet_MVPUITests.swift */; };
 		A0CB9A9F27A8E81700E6A9E8 /* Tweet_MVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9A9E27A8E81700E6A9E8 /* Tweet_MVPUITestsLaunchTests.swift */; };
 		A0CB9AAC27A8E86300E6A9E8 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9AAB27A8E86300E6A9E8 /* UserDefaultsManager.swift */; };
@@ -67,6 +75,14 @@
 		A019F35427B3A09A0052803F /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		A019F35627B3A0A30052803F /* WritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePresenter.swift; sourceTree = "<group>"; };
 		A019F35927B3B34A0052803F /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		A019F35B27B3D48A0052803F /* MockFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFeedViewController.swift; sourceTree = "<group>"; };
+		A019F35D27B3D4B60052803F /* MockUserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultsManager.swift; sourceTree = "<group>"; };
+		A019F36027B3D53B0052803F /* WritePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePresenterTests.swift; sourceTree = "<group>"; };
+		A019F36227B3D73F0052803F /* MockWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWriteViewController.swift; sourceTree = "<group>"; };
+		A019F36427B3D78F0052803F /* TweetPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetPresenterTests.swift; sourceTree = "<group>"; };
+		A019F36627B3D97E0052803F /* MockTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTweetViewController.swift; sourceTree = "<group>"; };
+		A019F36827B3D9D60052803F /* ProfilePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenterTests.swift; sourceTree = "<group>"; };
+		A019F36A27B3DDC70052803F /* MockProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProfileViewController.swift; sourceTree = "<group>"; };
 		A0CB9A7827A8E81500E6A9E8 /* Tweet_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweet_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CB9A7B27A8E81500E6A9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0CB9A7D27A8E81500E6A9E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +91,7 @@
 		A0CB9A8727A8E81600E6A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0CB9A8927A8E81600E6A9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0CB9A8E27A8E81700E6A9E8 /* Tweet_MVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tweet_MVPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0CB9A9227A8E81700E6A9E8 /* Tweet_MVPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet_MVPTests.swift; sourceTree = "<group>"; };
+		A0CB9A9227A8E81700E6A9E8 /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
 		A0CB9A9827A8E81700E6A9E8 /* Tweet_MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tweet_MVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CB9A9C27A8E81700E6A9E8 /* Tweet_MVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet_MVPUITests.swift; sourceTree = "<group>"; };
 		A0CB9A9E27A8E81700E6A9E8 /* Tweet_MVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet_MVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -161,6 +177,18 @@
 			path = Write;
 			sourceTree = "<group>";
 		};
+		A019F35F27B3D4FF0052803F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				A019F35B27B3D48A0052803F /* MockFeedViewController.swift */,
+				A019F36627B3D97E0052803F /* MockTweetViewController.swift */,
+				A019F36227B3D73F0052803F /* MockWriteViewController.swift */,
+				A019F36A27B3DDC70052803F /* MockProfileViewController.swift */,
+				A019F35D27B3D4B60052803F /* MockUserDefaultsManager.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		A0CB9A6F27A8E81500E6A9E8 = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +228,11 @@
 		A0CB9A9127A8E81700E6A9E8 /* Tweet_MVPTests */ = {
 			isa = PBXGroup;
 			children = (
-				A0CB9A9227A8E81700E6A9E8 /* Tweet_MVPTests.swift */,
+				A0CB9A9227A8E81700E6A9E8 /* FeedPresenterTests.swift */,
+				A019F36427B3D78F0052803F /* TweetPresenterTests.swift */,
+				A019F36027B3D53B0052803F /* WritePresenterTests.swift */,
+				A019F36827B3D9D60052803F /* ProfilePresenterTests.swift */,
+				A019F35F27B3D4FF0052803F /* Mock */,
 			);
 			path = Tweet_MVPTests;
 			sourceTree = "<group>";
@@ -524,7 +556,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0CB9A9327A8E81700E6A9E8 /* Tweet_MVPTests.swift in Sources */,
+				A019F36527B3D78F0052803F /* TweetPresenterTests.swift in Sources */,
+				A019F36727B3D97E0052803F /* MockTweetViewController.swift in Sources */,
+				A019F36927B3D9D60052803F /* ProfilePresenterTests.swift in Sources */,
+				A019F35C27B3D48A0052803F /* MockFeedViewController.swift in Sources */,
+				A0CB9A9327A8E81700E6A9E8 /* FeedPresenterTests.swift in Sources */,
+				A019F36B27B3DDC70052803F /* MockProfileViewController.swift in Sources */,
+				A019F36127B3D53B0052803F /* WritePresenterTests.swift in Sources */,
+				A019F36327B3D73F0052803F /* MockWriteViewController.swift in Sources */,
+				A019F35E27B3D4B60052803F /* MockUserDefaultsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
