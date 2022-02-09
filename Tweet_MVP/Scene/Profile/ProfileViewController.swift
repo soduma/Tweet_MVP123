@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import Toast_Swift
 
 class ProfileViewController: UIViewController {
     private lazy var presenter = ProfilePresenter(viewController: self)
@@ -76,6 +77,10 @@ extension ProfileViewController: ProfileProtocol {
     
     func endEditing() {
         view.endEditing(true)
+    }
+    
+    func showToast() {
+        view.makeToast("내용을 입력해주세요.")
     }
 }
 

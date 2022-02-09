@@ -11,6 +11,7 @@ protocol ProfileProtocol: AnyObject {
     func setView(name: String, account: String)
     func setupView()
     func endEditing()
+    func showToast()
 }
 
 class ProfilePresenter: NSObject {
@@ -32,6 +33,7 @@ class ProfilePresenter: NSObject {
     
     func didTapSaveButton(name: String?, account: String?) {
         if name == nil || name == "" || account == nil || account == "" {
+            viewController?.showToast()
             return
         }
         
