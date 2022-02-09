@@ -7,9 +7,21 @@
 
 import UIKit
 import SnapKit
+import Floaty
 
 class FeedViewController: UIViewController {
     private lazy var presenter = FeedPresenter(viewController: self)
+    
+    private lazy var writeButton: Floaty = {
+        let button = Floaty(size: 50)
+        button.sticky = true
+        button.handleFirstItemDirectly = true
+        button.addItem(title: "") { _ in
+            print("float!!!!!")
+        }
+        button.buttonImage = Icon.write.image?.withTintColor(.white, renderingMode: .alwaysOriginal)
+        return button
+    }()
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -29,10 +41,18 @@ class FeedViewController: UIViewController {
 extension FeedViewController: FeedProtocol {
     func setupView() {
         navigationItem.title = "Feed"
-        view.addSubview(tableView)
+        
+        [tableView, writeButton]
+            .forEach { view.addSubview($0) }
         
         tableView.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
+        
+        writeButton.paddingY = 100
+    }
+    
+    func reloadTableView() {
+        tableView.reloadData()
     }
 }

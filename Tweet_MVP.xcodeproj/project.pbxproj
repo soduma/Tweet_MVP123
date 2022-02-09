@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B174C46CAB9B5FCE1D491F9 /* Pods_Tweet_MVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9887FB6268A218794BD6E810 /* Pods_Tweet_MVP.framework */; };
 		A019F34B27B105E20052803F /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F34A27B105E20052803F /* FeedTableViewCell.swift */; };
 		A019F34D27B10ABC0052803F /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019F34C27B10ABC0052803F /* Icon.swift */; };
 		A0CB9A7C27A8E81500E6A9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9A7B27A8E81500E6A9E8 /* AppDelegate.swift */; };
@@ -25,6 +26,8 @@
 		A0CB9AB827A8F40500E6A9E8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9AB727A8F40500E6A9E8 /* ProfileViewController.swift */; };
 		A0CB9ABA27A8F48500E6A9E8 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9AB927A8F48500E6A9E8 /* FeedPresenter.swift */; };
 		A0CB9ABC27A8F93A00E6A9E8 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CB9ABB27A8F93A00E6A9E8 /* TabBarItem.swift */; };
+		D49326573036A6A3D904B6E3 /* Pods_Tweet_MVP_Tweet_MVPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0A72635B50D8CD38F1162F /* Pods_Tweet_MVP_Tweet_MVPUITests.framework */; };
+		FFA3D07708D8626CE17ED18C /* Pods_Tweet_MVPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF37DAEA98EAEC74E87489 /* Pods_Tweet_MVPTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FBA91D216CD574E6A7456F /* Pods-Tweet_MVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet_MVP.release.xcconfig"; path = "Target Support Files/Pods-Tweet_MVP/Pods-Tweet_MVP.release.xcconfig"; sourceTree = "<group>"; };
+		20FF37DAEA98EAEC74E87489 /* Pods_Tweet_MVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet_MVPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0A72635B50D8CD38F1162F /* Pods_Tweet_MVP_Tweet_MVPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet_MVP_Tweet_MVPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5C2F619B15BD3B4C6F9770 /* Pods-Tweet_MVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet_MVPTests.debug.xcconfig"; path = "Target Support Files/Pods-Tweet_MVPTests/Pods-Tweet_MVPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		595D961914B95AA08072A64C /* Pods-Tweet_MVPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet_MVPTests.release.xcconfig"; path = "Target Support Files/Pods-Tweet_MVPTests/Pods-Tweet_MVPTests.release.xcconfig"; sourceTree = "<group>"; };
+		92D5B18336141E2734BF2B9D /* Pods-Tweet_MVP-Tweet_MVPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet_MVP-Tweet_MVPUITests.release.xcconfig"; path = "Target Support Files/Pods-Tweet_MVP-Tweet_MVPUITests/Pods-Tweet_MVP-Tweet_MVPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9887FB6268A218794BD6E810 /* Pods_Tweet_MVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet_MVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A019F34A27B105E20052803F /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		A019F34C27B10ABC0052803F /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		A0CB9A7827A8E81500E6A9E8 /* Tweet_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweet_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +76,8 @@
 		A0CB9AB727A8F40500E6A9E8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A0CB9AB927A8F48500E6A9E8 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
 		A0CB9ABB27A8F93A00E6A9E8 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		A1A5896F2011E724E308AA87 /* Pods-Tweet_MVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet_MVP.debug.xcconfig"; path = "Target Support Files/Pods-Tweet_MVP/Pods-Tweet_MVP.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA7C0F32077A5AF9A653197 /* Pods-Tweet_MVP-Tweet_MVPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet_MVP-Tweet_MVPUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tweet_MVP-Tweet_MVPUITests/Pods-Tweet_MVP-Tweet_MVPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0CB9AB427A8E8B200E6A9E8 /* SnapKit in Frameworks */,
+				6B174C46CAB9B5FCE1D491F9 /* Pods_Tweet_MVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA3D07708D8626CE17ED18C /* Pods_Tweet_MVPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +102,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49326573036A6A3D904B6E3 /* Pods_Tweet_MVP_Tweet_MVPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A861A183299BA46EB879101 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1A5896F2011E724E308AA87 /* Pods-Tweet_MVP.debug.xcconfig */,
+				00FBA91D216CD574E6A7456F /* Pods-Tweet_MVP.release.xcconfig */,
+				FCA7C0F32077A5AF9A653197 /* Pods-Tweet_MVP-Tweet_MVPUITests.debug.xcconfig */,
+				92D5B18336141E2734BF2B9D /* Pods-Tweet_MVP-Tweet_MVPUITests.release.xcconfig */,
+				3D5C2F619B15BD3B4C6F9770 /* Pods-Tweet_MVPTests.debug.xcconfig */,
+				595D961914B95AA08072A64C /* Pods-Tweet_MVPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A019F34E27B390470052803F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0CB9AAB27A8E86300E6A9E8 /* UserDefaultsManager.swift */,
+				A0CB9AAD27A8E87B00E6A9E8 /* Tweet.swift */,
+				A0CB9AAF27A8E88500E6A9E8 /* User.swift */,
+				A019F34C27B10ABC0052803F /* Icon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A0CB9A6F27A8E81500E6A9E8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +140,8 @@
 				A0CB9A9127A8E81700E6A9E8 /* Tweet_MVPTests */,
 				A0CB9A9B27A8E81700E6A9E8 /* Tweet_MVPUITests */,
 				A0CB9A7927A8E81500E6A9E8 /* Products */,
+				1A861A183299BA46EB879101 /* Pods */,
+				A11923318510BDE529D9D273 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,10 +160,7 @@
 			children = (
 				A0CB9A7B27A8E81500E6A9E8 /* AppDelegate.swift */,
 				A0CB9A7D27A8E81500E6A9E8 /* SceneDelegate.swift */,
-				A0CB9AAB27A8E86300E6A9E8 /* UserDefaultsManager.swift */,
-				A0CB9AAD27A8E87B00E6A9E8 /* Tweet.swift */,
-				A0CB9AAF27A8E88500E6A9E8 /* User.swift */,
-				A019F34C27B10ABC0052803F /* Icon.swift */,
+				A019F34E27B390470052803F /* Model */,
 				A0CB9AB127A8E89E00E6A9E8 /* Scene */,
 				A0CB9A8427A8E81600E6A9E8 /* Assets.xcassets */,
 				A0CB9A8627A8E81600E6A9E8 /* LaunchScreen.storyboard */,
@@ -177,6 +215,16 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		A11923318510BDE529D9D273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9887FB6268A218794BD6E810 /* Pods_Tweet_MVP.framework */,
+				3D0A72635B50D8CD38F1162F /* Pods_Tweet_MVP_Tweet_MVPUITests.framework */,
+				20FF37DAEA98EAEC74E87489 /* Pods_Tweet_MVPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0CB9AA227A8E81700E6A9E8 /* Build configuration list for PBXNativeTarget "Tweet_MVP" */;
 			buildPhases = (
+				6CF6B036A622AF3D8F5B0E46 /* [CP] Check Pods Manifest.lock */,
 				A0CB9A7427A8E81500E6A9E8 /* Sources */,
 				A0CB9A7527A8E81500E6A9E8 /* Frameworks */,
 				A0CB9A7627A8E81500E6A9E8 /* Resources */,
+				4416A8BABE808C5787D4771A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0CB9AA527A8E81700E6A9E8 /* Build configuration list for PBXNativeTarget "Tweet_MVPTests" */;
 			buildPhases = (
+				B3532996B77A02E4B3A5A221 /* [CP] Check Pods Manifest.lock */,
 				A0CB9A8A27A8E81700E6A9E8 /* Sources */,
 				A0CB9A8B27A8E81700E6A9E8 /* Frameworks */,
 				A0CB9A8C27A8E81700E6A9E8 /* Resources */,
@@ -222,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0CB9AA827A8E81700E6A9E8 /* Build configuration list for PBXNativeTarget "Tweet_MVPUITests" */;
 			buildPhases = (
+				A786AF74FC6BBA9AADE0D835 /* [CP] Check Pods Manifest.lock */,
 				A0CB9A9427A8E81700E6A9E8 /* Sources */,
 				A0CB9A9527A8E81700E6A9E8 /* Frameworks */,
 				A0CB9A9627A8E81700E6A9E8 /* Resources */,
+				5E3DD77FBBBBD02995B14508 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,6 +360,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4416A8BABE808C5787D4771A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tweet_MVP/Pods-Tweet_MVP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tweet_MVP/Pods-Tweet_MVP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tweet_MVP/Pods-Tweet_MVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E3DD77FBBBBD02995B14508 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tweet_MVP-Tweet_MVPUITests/Pods-Tweet_MVP-Tweet_MVPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tweet_MVP-Tweet_MVPUITests/Pods-Tweet_MVP-Tweet_MVPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tweet_MVP-Tweet_MVPUITests/Pods-Tweet_MVP-Tweet_MVPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF6B036A622AF3D8F5B0E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tweet_MVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A786AF74FC6BBA9AADE0D835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tweet_MVP-Tweet_MVPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3532996B77A02E4B3A5A221 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tweet_MVPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0CB9A7427A8E81500E6A9E8 /* Sources */ = {
@@ -490,6 +646,7 @@
 		};
 		A0CB9AA327A8E81700E6A9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A5896F2011E724E308AA87 /* Pods-Tweet_MVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -516,6 +673,7 @@
 		};
 		A0CB9AA427A8E81700E6A9E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FBA91D216CD574E6A7456F /* Pods-Tweet_MVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -542,6 +700,7 @@
 		};
 		A0CB9AA627A8E81700E6A9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5C2F619B15BD3B4C6F9770 /* Pods-Tweet_MVPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -561,6 +720,7 @@
 		};
 		A0CB9AA727A8E81700E6A9E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595D961914B95AA08072A64C /* Pods-Tweet_MVPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +740,7 @@
 		};
 		A0CB9AA927A8E81700E6A9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA7C0F32077A5AF9A653197 /* Pods-Tweet_MVP-Tweet_MVPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +758,7 @@
 		};
 		A0CB9AAA27A8E81700E6A9E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D5B18336141E2734BF2B9D /* Pods-Tweet_MVP-Tweet_MVPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -9,6 +9,7 @@ import UIKit
 
 protocol FeedProtocol: AnyObject {
     func setupView()
+    func reloadTableView()
 }
 
 class FeedPresenter: NSObject {
